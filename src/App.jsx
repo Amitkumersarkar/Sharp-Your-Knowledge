@@ -8,13 +8,12 @@ function App() {
 
   return (
     <>
-      <div>
-        <Header></Header>
-        <div className='md:flex p-4'>
-          <Blogs></Blogs>
-          <Bookmarks></Bookmarks>
-        </div>
+      <Header></Header>
+      <div className='md:flex '>
+        <Blogs></Blogs>
+        <Bookmarks></Bookmarks>
       </div>
+
     </>
   )
 }
