@@ -1,5 +1,6 @@
 import './App.css'
 import Blogs from './components/Blogs/Blogs'
+import Bookmarks from './components/Bookmarks/Bookmarks'
 import Header from './Header/Header'
 
 function App() {
@@ -9,7 +10,10 @@ function App() {
     <>
       <div>
         <Header></Header>
-        <Blogs></Blogs>
+        <div>
+          <Blogs></Blogs>
+          <Bookmarks></Bookmarks>
+        </div>
       </div>
     </>
   )
