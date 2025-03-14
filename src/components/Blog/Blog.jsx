@@ -2,10 +2,14 @@
 import PropTypes from 'prop-types';
 // declared a props
 const Blog = ({ blog }) => {
+    // destructuring items here
+
+    const { title } = blog;
+
     console.log(blog);
     return (
         <div>
-
+            <h2 className='text-4xl'>{title}</h2>
         </div>
     );
 };
